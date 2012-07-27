@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-27T12:33:44.991">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.8/apis/atmos/src/main/java/org/jclouds/atmos/blobstore/AtmosAsyncBlobStore.java">
+<violation beginline="244" endline="246" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.atmos.blobstore" class="AtmosAsyncBlobStore" method="putBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.8/apis/atmos/src/main/java/org/jclouds/atmos/blobstore/AtmosBlobStore.java">
+<violation beginline="218" endline="220" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.atmos.blobstore" class="AtmosBlobStore" method="putBlob" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.8/apis/atmos/src/main/java/org/jclouds/atmos/util/AtmosUtils.java">
+<violation beginline="104" endline="106" begincolumn="10" endcolumn="10" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="org.jclouds.atmos.util" class="AtmosUtils" method="adjustContainerIfDirOptionPresent" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

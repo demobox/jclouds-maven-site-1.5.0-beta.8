@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Jul 27 10:16:18 EDT 2012 -->
+
+<report>
+  <stats>
+    <packages value="7"/>
+    <classes value="15"/>
+    <methods value="83"/>
+    <srcfiles value="11"/>
+    <srclines value="346"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="60%  (9/15)"/>
+      <coverage type="method, %" value="47%  (39/83)"/>
+      <coverage type="block, %" value="47%  (940/2016)"/>
+      <coverage type="line, %" value="50%  (174.6/346)"/>
+
+      <package name="org.jclouds.aws.config">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/16)"/>
+        <coverage type="block, %" value="0%   (0/97)"/>
+        <coverage type="line, %" value="0%   (0/32)"/>
+
+        <srcfile name="AWSRestClientModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/6)"/>
+          <coverage type="block, %" value="0%   (0/52)"/>
+          <coverage type="line, %" value="0%   (0/14)"/>
+
+          <class name="AWSRestClientModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/52)"/>
+            <coverage type="line, %" value="0%   (0/14)"/>
+
+            <method name="AWSRestClientModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AWSRestClientModule (Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AWSRestClientModule (TypeToken, TypeToken): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="AWSRestClientModule (TypeToken, TypeToken, Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="bindErrorHandlers (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/25)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="bindRetryHandlers (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="FormSigningRestClientModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/6)"/>
+          <coverage type="block, %" value="0%   (0/27)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="FormSigningRestClientModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/6)"/>
+            <coverage type="block, %" value="0%   (0/27)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
+
+            <method name="FormSigningRestClientModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="FormSigningRestClientModule (Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="FormSigningRestClientModule (TypeToken, TypeToken): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="FormSigningRestClientModule (TypeToken, TypeToken, Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="provideRequestSigner (FormSigner): RequestSigner">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="provideTimeStamp (DateService): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="WithZonesFormSigningRestClientModule.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/18)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
+
+          <class name="WithZonesFormSigningRestClientModule">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/18)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
+
+            <method name="WithZonesFormSigningRestClientModule (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="WithZonesFormSigningRestClientModule (Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="WithZonesFormSigningRestClientModule (TypeToken, TypeToken): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="WithZonesFormSigningRestClientModule (TypeToken, TypeToken, Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.util">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="14%  (2/14)"/>
+        <coverage type="block, %" value="11%  (86/764)"/>
+        <coverage type="line, %" value="16%  (16/98)"/>
+
+        <srcfile name="AWSUtils.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="14%  (2/14)"/>
+          <coverage type="block, %" value="11%  (86/764)"/>
+          <coverage type="line, %" value="16%  (16/98)"/>
+
+          <class name="AWSUtils$GetRegionFromLocation">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/16)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="AWSUtils$GetRegionFromLocation (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Location): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+          <class name="AWSUtils">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="17%  (2/12)"/>
+            <coverage type="block, %" value="11%  (86/748)"/>
+            <coverage type="line, %" value="17%  (16/95)"/>
+
+            <method name="findRegionInArgsOrNull (GeneratedHttpRequest): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="getRegionFromLocationOrNull (Location): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="indexIterableToFormValuesWithPrefix (HttpRequest, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/77)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
+            </method>
+            <method name="indexMapOfIterableToFormValuesWithPrefix (HttpRequest, String, String, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/125)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
+            </method>
+            <method name="indexMapToFormValuesWithPrefix (HttpRequest, String, String, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/105)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+            <method name="indexMultimapToFormValuesWithPrefix (HttpRequest, String, String, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/118)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
+            </method>
+            <method name="indexStringArrayToFormValuesWithPrefix (HttpRequest, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/74)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="indexStringArrayToFormValuesWithStringFormat (HttpRequest, String, Object): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/73)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="isRegion (String): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="parseHandle (String): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="parseAWSErrorFromContent (HttpRequest, HttpResponse): AWSError">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="65%  (51/78)"/>
+              <coverage type="line, %" value="53%  (8/15)"/>
+            </method>
+            <method name="AWSUtils (String, RequestSigner, ParseSax$Factory, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (35/35)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="33%  (2/6)"/>
+        <coverage type="block, %" value="38%  (38/99)"/>
+        <coverage type="line, %" value="34%  (5.4/16)"/>
+
+        <srcfile name="AWSResponseException.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="33%  (2/6)"/>
+          <coverage type="block, %" value="38%  (38/99)"/>
+          <coverage type="line, %" value="34%  (5.4/16)"/>
+
+          <class name="AWSResponseException">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (2/6)"/>
+            <coverage type="block, %" value="38%  (38/99)"/>
+            <coverage type="line, %" value="34%  (5.4/16)"/>
+
+            <method name="AWSResponseException (HttpCommand, HttpResponse, AWSError, Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="AWSResponseException (String, HttpCommand, HttpResponse, AWSError): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="AWSResponseException (String, HttpCommand, HttpResponse, AWSError, Throwable): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="getError (): AWSError">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="AWSResponseException (HttpCommand, HttpResponse, AWSError): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="setError (AWSError): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.domain">
+        <coverage type="class, %" value="50%  (1/2)"/>
+        <coverage type="method, %" value="60%  (12/20)"/>
+        <coverage type="block, %" value="44%  (117/263)"/>
+        <coverage type="line, %" value="50%  (29/58)"/>
+
+        <srcfile name="Region.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/113)"/>
+          <coverage type="line, %" value="0%   (0/20)"/>
+
+          <class name="Region">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/113)"/>
+            <coverage type="line, %" value="0%   (0/20)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="Region (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="regionProperties (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/54)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+            <method name="regionPropertiesS3 (): Properties">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AWSError.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="75%  (12/16)"/>
+          <coverage type="block, %" value="78%  (117/150)"/>
+          <coverage type="line, %" value="76%  (29/38)"/>
+
+          <class name="AWSError">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="75%  (12/16)"/>
+            <coverage type="block, %" value="78%  (117/150)"/>
+            <coverage type="line, %" value="76%  (29/38)"/>
+
+            <method name="getStringSigned (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setDetails (Map): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setSignature (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="setStringSigned (String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="81%  (75/93)"/>
+              <coverage type="line, %" value="87%  (13/15)"/>
+            </method>
+            <method name="AWSError (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="getCode (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getDetails (): Map">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMessage (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRequestId (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRequestToken (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getSignature (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="setCode (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setMessage (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setRequestId (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="setRequestToken (String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.filters">
+        <coverage type="class, %" value="75%  (3/4)"/>
+        <coverage type="method, %" value="78%  (14/18)"/>
+        <coverage type="block, %" value="85%  (323/379)"/>
+        <coverage type="line, %" value="84%  (58/69)"/>
+
+        <srcfile name="FormSigner.java">
+          <coverage type="class, %" value="75%  (3/4)"/>
+          <coverage type="method, %" value="78%  (14/18)"/>
+          <coverage type="block, %" value="85%  (323/379)"/>
+          <coverage type="line, %" value="84%  (58/69)"/>
+
+          <class name="FormSigner$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/16)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="FormSigner$1 (FormSigner): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="compare (String, String): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="FormSigner">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (10/12)"/>
+            <coverage type="block, %" value="87%  (262/302)"/>
+            <coverage type="line, %" value="86%  (50/58)"/>
+
+            <method name="createStringToSign (HttpRequest): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="sortForSigning (String): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="sign (String): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="58%  (18/31)"/>
+              <coverage type="line, %" value="57%  (4/7)"/>
+            </method>
+            <method name="createStringToSign (HttpRequest, Multimap): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="89%  (48/54)"/>
+              <coverage type="line, %" value="89%  (8/9)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="FormSigner (SignatureWire, String, String, String, Provider, Crypto, HttpUtils): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (27/27)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="addSignature (Multimap, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="addSigningParams (Multimap): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (32/32)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="buildCanonicalizedString (Multimap): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="filter (HttpRequest): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (52/52)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+            <method name="setPayload (HttpRequest, Multimap): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="validateParams (Multimap): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (31/31)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+          <class name="FormSigner$2">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (42/42)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="FormSigner$2 (FormSigner): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="compare (Map$Entry, Map$Entry): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (36/36)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+          </class>
+          <class name="FormSigner$3">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (19/19)"/>
+            <coverage type="line, %" value="100% (4/4)"/>
+
+            <method name="FormSigner$3 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="compare (Map$Entry, Map$Entry): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.handlers">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="100% (5/5)"/>
+        <coverage type="block, %" value="89%  (296/334)"/>
+        <coverage type="line, %" value="88%  (50.2/57)"/>
+
+        <srcfile name="ParseAWSErrorFromXmlContent.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="87%  (244/282)"/>
+          <coverage type="line, %" value="85%  (39.2/46)"/>
+
+          <class name="ParseAWSErrorFromXmlContent">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="87%  (244/282)"/>
+            <coverage type="line, %" value="85%  (39.2/46)"/>
+
+            <method name="handleError (HttpCommand, HttpResponse): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="85%  (106/124)"/>
+              <coverage type="line, %" value="88%  (19.2/22)"/>
+            </method>
+            <method name="refineException (HttpCommand, HttpResponse, Exception, AWSError, String): Exception">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="87%  (129/149)"/>
+              <coverage type="line, %" value="80%  (16/20)"/>
+            </method>
+            <method name="ParseAWSErrorFromXmlContent (AWSUtils): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AWSClientErrorRetryHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="100% (52/52)"/>
+          <coverage type="line, %" value="100% (11/11)"/>
+
+          <class name="AWSClientErrorRetryHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (52/52)"/>
+            <coverage type="line, %" value="100% (11/11)"/>
+
+            <method name="AWSClientErrorRetryHandler (AWSUtils, BackoffLimitedRetryHandler): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="shouldRetryRequest (HttpCommand, HttpResponse): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (43/43)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.aws.xml">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="100% (80/80)"/>
+        <coverage type="line, %" value="100% (16/16)"/>
+
+        <srcfile name="ErrorHandler.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (80/80)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="ErrorHandler">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (80/80)"/>
+            <coverage type="line, %" value="100% (16/16)"/>
+
+            <method name="ErrorHandler (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="characters (char [], int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="endElement (String, String, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (56/56)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
+            </method>
+            <method name="getResult (): AWSError">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

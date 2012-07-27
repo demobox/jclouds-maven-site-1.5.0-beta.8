@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-27T15:22:15.463">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.8/labs/aws-elb/src/main/java/org/jclouds/aws/elb/AWSELBProviderMetadata.java">
+<violation beginline="19" endline="109" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.elb" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>

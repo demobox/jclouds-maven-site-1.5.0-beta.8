@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-07-27T21:49:31.045">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.8/labs/smartos-ssh/src/main/java/org/jclouds/smartos/compute/domain/VM.java">
+<violation beginline="144" endline="144" begincolumn="42" endcolumn="50" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.smartos.compute.domain" class="VM" method="getPublicAddress" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-beta.8/labs/smartos-ssh/src/main/java/org/jclouds/smartos/compute/functions/VMToNodeMetadata.java">
+<violation beginline="98" endline="100" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.smartos.compute.functions" class="VMToNodeMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

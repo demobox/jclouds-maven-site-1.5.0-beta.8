@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Jul 27 21:07:54 EDT 2012 -->
+
+<report>
+  <stats>
+    <packages value="8"/>
+    <classes value="23"/>
+    <methods value="84"/>
+    <srcfiles value="16"/>
+    <srclines value="219"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="74%  (17/23)"/>
+      <coverage type="method, %" value="56%  (47/84)"/>
+      <coverage type="block, %" value="51%  (584/1153)"/>
+      <coverage type="line, %" value="53%  (115.3/219)"/>
+
+      <package name="org.jclouds.hpcloud.objectstorage.functions">
+        <coverage type="class, %" value="0%   (0/3)"/>
+        <coverage type="method, %" value="0%   (0/9)"/>
+        <coverage type="block, %" value="0%   (0/158)"/>
+        <coverage type="line, %" value="0%   (0/28)"/>
+
+        <srcfile name="ParseCDNUriFromHeaders.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="block, %" value="0%   (0/13)"/>
+          <coverage type="line, %" value="0%   (0/3)"/>
+
+          <class name="ParseCDNUriFromHeaders">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/13)"/>
+            <coverage type="line, %" value="0%   (0/3)"/>
+
+            <method name="ParseCDNUriFromHeaders (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (HttpResponse): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseContainerCDNMetadataFromHeaders.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/59)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
+
+          <class name="ParseContainerCDNMetadataFromHeaders">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/59)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
+
+            <method name="ParseContainerCDNMetadataFromHeaders (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (HttpResponse): ContainerCDNMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/51)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseContainerCDNMetadataFromHeaders">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ParseContainerMetadataFromHeaders.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/86)"/>
+          <coverage type="line, %" value="0%   (0/15)"/>
+
+          <class name="ParseContainerMetadataFromHeaders">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/86)"/>
+            <coverage type="line, %" value="0%   (0/15)"/>
+
+            <method name="ParseContainerMetadataFromHeaders (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="addUserMetadataTo (HttpResponse, ContainerMetadata): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/36)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="apply (HttpResponse): ContainerMetadata">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
+            </method>
+            <method name="setContext (HttpRequest): ParseContainerMetadataFromHeaders">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.objectstorage.domain">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="31%  (4/13)"/>
+        <coverage type="block, %" value="21%  (33/154)"/>
+        <coverage type="line, %" value="30%  (10.8/36)"/>
+
+        <srcfile name="ContainerCDNMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="31%  (4/13)"/>
+          <coverage type="block, %" value="21%  (33/154)"/>
+          <coverage type="line, %" value="30%  (10.8/36)"/>
+
+          <class name="ContainerCDNMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="31%  (4/13)"/>
+            <coverage type="block, %" value="21%  (33/154)"/>
+            <coverage type="line, %" value="30%  (10.8/36)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
+            </method>
+            <method name="getCDNUri (): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getReferrerACL (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTTL (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getUseragentACL (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="isCDNEnabled (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isLogRetention (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/43)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="compareTo (ContainerCDNMetadata): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="75%  (12/16)"/>
+              <coverage type="line, %" value="60%  (1.8/3)"/>
+            </method>
+            <method name="ContainerCDNMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ContainerCDNMetadata (String, boolean, long, URI): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.objectstorage.blobstore.config">
+        <coverage type="class, %" value="100% (2/2)"/>
+        <coverage type="method, %" value="67%  (4/6)"/>
+        <coverage type="block, %" value="48%  (54/113)"/>
+        <coverage type="line, %" value="56%  (14/25)"/>
+
+        <srcfile name="HPCloudObjectStorageBlobStoreContextModule.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="67%  (4/6)"/>
+          <coverage type="block, %" value="48%  (54/113)"/>
+          <coverage type="line, %" value="56%  (14/25)"/>
+
+          <class name="HPCloudObjectStorageBlobStoreContextModule$GetCDNMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="13%  (9/68)"/>
+            <coverage type="line, %" value="27%  (4/15)"/>
+
+            <method name="load (String): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/57)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="HPCloudObjectStorageBlobStoreContextModule$GetCDNMetadata (HPCloudObjectStorageClient): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+          <class name="HPCloudObjectStorageBlobStoreContextModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (45/45)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="HPCloudObjectStorageBlobStoreContextModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="cdnContainer (HPCloudObjectStorageBlobStoreContextModule$GetCDNMetadata): LoadingCache">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="configure (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (35/35)"/>
+              <coverage type="line, %" value="100% (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.objectstorage.blobstore.functions">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="83%  (5/6)"/>
+        <coverage type="block, %" value="48%  (44/92)"/>
+        <coverage type="line, %" value="64%  (18/28)"/>
+
+        <srcfile name="EnableCDNAndCache.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="30%  (9/30)"/>
+          <coverage type="line, %" value="44%  (4/9)"/>
+
+          <class name="EnableCDNAndCache">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="30%  (9/30)"/>
+            <coverage type="line, %" value="44%  (4/9)"/>
+
+            <method name="apply (String): URI">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/21)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+            <method name="EnableCDNAndCache (HPCloudObjectStorageClient, LoadingCache): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="PublicUriForObjectInfo.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="36%  (14/39)"/>
+          <coverage type="line, %" value="64%  (7/11)"/>
+
+          <class name="PublicUriForObjectInfo">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="36%  (14/39)"/>
+            <coverage type="line, %" value="64%  (7/11)"/>
+
+            <method name="apply (ObjectInfo): URI">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="17%  (5/30)"/>
+              <coverage type="line, %" value="43%  (3/7)"/>
+            </method>
+            <method name="PublicUriForObjectInfo (LoadingCache, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="HPCloudObjectStorageObjectToBlobMetadata.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (2/2)"/>
+          <coverage type="block, %" value="91%  (21/23)"/>
+          <coverage type="line, %" value="88%  (7/8)"/>
+
+          <class name="HPCloudObjectStorageObjectToBlobMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="91%  (21/23)"/>
+            <coverage type="line, %" value="88%  (7/8)"/>
+
+            <method name="apply (ObjectInfo): MutableBlobMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="88%  (14/16)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="HPCloudObjectStorageObjectToBlobMetadata (IfDirectoryReturnNameStrategy, PublicUriForObjectInfo): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.objectstorage.options">
+        <coverage type="class, %" value="50%  (2/4)"/>
+        <coverage type="method, %" value="38%  (6/16)"/>
+        <coverage type="block, %" value="49%  (76/155)"/>
+        <coverage type="line, %" value="44%  (13.5/31)"/>
+
+        <srcfile name="ListCDNContainerOptions.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/9)"/>
+          <coverage type="block, %" value="0%   (0/76)"/>
+          <coverage type="line, %" value="0%   (0/17)"/>
+
+          <class name="ListCDNContainerOptions">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/50)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ListCDNContainerOptions (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="afterMarker (String): ListCDNContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="enabledOnly (): ListCDNContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="maxResults (int): ListCDNContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+          </class>
+          <class name="ListCDNContainerOptions$Builder">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/26)"/>
+            <coverage type="line, %" value="0%   (0/7)"/>
+
+            <method name="ListCDNContainerOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="afterMarker (String): ListCDNContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="enabledOnly (): ListCDNContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="maxResults (int): ListCDNContainerOptions">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CreateContainerOptions.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="86%  (6/7)"/>
+          <coverage type="block, %" value="96%  (76/79)"/>
+          <coverage type="line, %" value="96%  (13.5/14)"/>
+
+          <class name="CreateContainerOptions$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="83%  (15/18)"/>
+            <coverage type="line, %" value="80%  (4/5)"/>
+
+            <method name="CreateContainerOptions$Builder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="withMetadata (Map): CreateContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withPublicAccess (): CreateContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="CreateContainerOptions">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (61/61)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="CreateContainerOptions (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="withMetadata (Map): CreateContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (45/45)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="withPublicAccess (): CreateContainerOptions">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.objectstorage.blobstore">
+        <coverage type="class, %" value="75%  (3/4)"/>
+        <coverage type="method, %" value="50%  (6/12)"/>
+        <coverage type="block, %" value="61%  (166/270)"/>
+        <coverage type="line, %" value="59%  (17/29)"/>
+
+        <srcfile name="HPCloudObjectStorageAsyncBlobStore.java">
+          <coverage type="class, %" value="50%  (1/2)"/>
+          <coverage type="method, %" value="20%  (1/5)"/>
+          <coverage type="block, %" value="29%  (22/76)"/>
+          <coverage type="line, %" value="27%  (3/11)"/>
+
+          <class name="HPCloudObjectStorageAsyncBlobStore$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/28)"/>
+            <coverage type="line, %" value="0%   (0/4)"/>
+
+            <method name="HPCloudObjectStorageAsyncBlobStore$1 (HPCloudObjectStorageAsyncBlobStore, String): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="apply (Boolean): Boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+          </class>
+          <class name="HPCloudObjectStorageAsyncBlobStore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="33%  (1/3)"/>
+            <coverage type="block, %" value="46%  (22/48)"/>
+            <coverage type="line, %" value="38%  (3/8)"/>
+
+            <method name="access$000 (HPCloudObjectStorageAsyncBlobStore): EnableCDNAndCache">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): ListenableFuture">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="HPCloudObjectStorageAsyncBlobStore (BlobStoreContext, BlobUtils, ExecutorService, Supplier, Supplier, HPCloudObjectStorageClient, HPCloudObjectStorageAsyncClient, ContainerToResourceMetadata, BlobStoreListContainerOptionsToListContainerOptions, ContainerToResourceList, ObjectToBlob, BlobToObject, ObjectToBlobMetadata, BlobToHttpGetOptions, Provider, EnableCDNAndCache, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="HPCloudObjectStorageBlobStore.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="43%  (20/46)"/>
+          <coverage type="line, %" value="50%  (3/6)"/>
+
+          <class name="HPCloudObjectStorageBlobStore">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="43%  (20/46)"/>
+            <coverage type="line, %" value="50%  (3/6)"/>
+
+            <method name="createContainerInLocation (Location, String, CreateContainerOptions): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/26)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="HPCloudObjectStorageBlobStore (BlobStoreContext, BlobUtils, Supplier, Supplier, HPCloudObjectStorageClient, ContainerToResourceMetadata, BlobStoreListContainerOptionsToListContainerOptions, ContainerToResourceList, ObjectToBlob, BlobToObject, ObjectToBlobMetadata, BlobToHttpGetOptions, Provider, EnableCDNAndCache, Provider): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="HPCloudObjectStorageBlobRequestSigner.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="block, %" value="84%  (124/148)"/>
+          <coverage type="line, %" value="92%  (11/12)"/>
+
+          <class name="HPCloudObjectStorageBlobRequestSigner">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="block, %" value="84%  (124/148)"/>
+            <coverage type="line, %" value="92%  (11/12)"/>
+
+            <method name="signGetBlob (String, String, GetOptions): HttpRequest">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="HPCloudObjectStorageBlobRequestSigner (RestAnnotationProcessor, BlobToObject, BlobToHttpGetOptions): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (70/70)"/>
+              <coverage type="line, %" value="100% (8/8)"/>
+            </method>
+            <method name="signGetBlob (String, String): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="signPutBlob (String, Blob): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="signRemoveBlob (String, String): HttpRequest">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (17/17)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.objectstorage">
+        <coverage type="class, %" value="100% (5/5)"/>
+        <coverage type="method, %" value="100% (18/18)"/>
+        <coverage type="block, %" value="100% (175/175)"/>
+        <coverage type="line, %" value="100% (35/35)"/>
+
+        <srcfile name="HPCloudObjectStorageApiMetadata.java">
+          <coverage type="class, %" value="100% (3/3)"/>
+          <coverage type="method, %" value="100% (10/10)"/>
+          <coverage type="block, %" value="100% (91/91)"/>
+          <coverage type="line, %" value="100% (19/19)"/>
+
+          <class name="HPCloudObjectStorageApiMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (6/6)"/>
+            <coverage type="block, %" value="100% (44/44)"/>
+            <coverage type="line, %" value="100% (13/13)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="HPCloudObjectStorageApiMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="HPCloudObjectStorageApiMetadata (HPCloudObjectStorageApiMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): HPCloudObjectStorageApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (23/23)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="toBuilder (): HPCloudObjectStorageApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="HPCloudObjectStorageApiMetadata$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (1/1)"/>
+            <coverage type="block, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (1/1)"/>
+
+            <method name="HPCloudObjectStorageApiMetadata$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="HPCloudObjectStorageApiMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (44/44)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="HPCloudObjectStorageApiMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (33/33)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): HPCloudObjectStorageApiMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromApiMetadata (ApiMetadata): HPCloudObjectStorageApiMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="HPCloudObjectStorageProviderMetadata.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="100% (8/8)"/>
+          <coverage type="block, %" value="100% (84/84)"/>
+          <coverage type="line, %" value="100% (16/16)"/>
+
+          <class name="HPCloudObjectStorageProviderMetadata">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="block, %" value="100% (32/32)"/>
+            <coverage type="line, %" value="100% (10/10)"/>
+
+            <method name="HPCloudObjectStorageProviderMetadata (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="HPCloudObjectStorageProviderMetadata (HPCloudObjectStorageProviderMetadata$Builder): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): HPCloudObjectStorageProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="defaultProperties (): Properties">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="toBuilder (): HPCloudObjectStorageProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="HPCloudObjectStorageProviderMetadata$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (52/52)"/>
+            <coverage type="line, %" value="100% (6/6)"/>
+
+            <method name="HPCloudObjectStorageProviderMetadata$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (41/41)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="build (): HPCloudObjectStorageProviderMetadata">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="fromProviderMetadata (ProviderMetadata): HPCloudObjectStorageProviderMetadata$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.jclouds.hpcloud.objectstorage.config">
+        <coverage type="class, %" value="100% (1/1)"/>
+        <coverage type="method, %" value="100% (4/4)"/>
+        <coverage type="block, %" value="100% (36/36)"/>
+        <coverage type="line, %" value="100% (7/7)"/>
+
+        <srcfile name="HPCloudObjectStorageRestClientModule.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (4/4)"/>
+          <coverage type="block, %" value="100% (36/36)"/>
+          <coverage type="line, %" value="100% (7/7)"/>
+
+          <class name="HPCloudObjectStorageRestClientModule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (36/36)"/>
+            <coverage type="line, %" value="100% (7/7)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="HPCloudObjectStorageRestClientModule (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="bindResolvedClientsToCommonSwift (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="provideCDNUrl (RegionIdToURISupplier$Factory, String): Supplier">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
